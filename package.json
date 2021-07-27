@@ -92,6 +92,6 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "@uniswap/sdk": "file:../../uniswap-v2-sdk"
+    "@openzeppelin/contracts-upgradeable": "^4.2.0"
   }
 }

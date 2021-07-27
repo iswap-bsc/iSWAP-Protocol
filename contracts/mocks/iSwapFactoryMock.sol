@@ -1,9 +1,8 @@
 // SPDX-License-Identifier: MIT
-
 pragma solidity 0.6.12;
 
-import "../uniswapv2/UniswapV2Factory.sol";
+import "../dex/iSwapFactory.sol";
 
-contract iSwapFactoryMock is UniswapV2Factory {
-    constructor(address _feeToSetter) public UniswapV2Factory(_feeToSetter) {}
+contract iSwapFactoryMock is iSwapFactory {
+    constructor(address _feeToSetter) public iSwapFactory(_feeToSetter) {}
 }

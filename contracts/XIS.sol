@@ -18,7 +18,7 @@ contract XIS {
     uint8 public constant decimals = 18;
 
     /// @notice Total number of tokens in circulation
-    uint256 public constant totalSupply = 50e24; // 10 million XIS
+    uint256 public constant totalSupply = 50e24; // 50 million XIS
 
     mapping(address => mapping(address => uint96)) internal allowances;
 

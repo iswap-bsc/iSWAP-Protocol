@@ -10,9 +10,9 @@ analyze:
     remappings:
         - "@openzeppelin=node_modules/@openzeppelin"
     targets:
-        - contracts/uniswapv2/UniswapV2Pair.sol:UniswapV2Pair
-        - contracts/uniswapv2/UniswapV2Factory.sol:UniswapV2Factory
-        - contracts/uniswapv2/UniswapV2ERC20.sol:UniswapV2ERC20
-        - contracts/uniswapv2/UniswapV2Router02.sol:UniswapV2Router02
+        - contracts/iSwap/iSwapPair.sol:iSwapPair
+        - contracts/iSwap/iSwapFactory.sol:iSwapFactory
+        - contracts/iSwap/iSwapERC20.sol:iSwapERC20
+        - contracts/iSwap/iSwapRouter02.sol:iSwapRouter02
         - contracts/XIS.sol:XIS
         - contracts/governance/Timelock.sol:Timelock
